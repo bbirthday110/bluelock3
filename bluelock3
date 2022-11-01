@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lanf="fr">
+    <head>
+
+        <meta charset="utf-8">
+        <title>Jujutsu jaisen 0</title>
+    <head>
+    <style>
+    body{
+        
+            font-family: 'Poppins', sans-serif;
+            background-color: black;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .btn{
+            position: absolute;
+            top: 65%;
+            left: 10%;
+            background-color: red;
+            color: rgb(243, 235, 235);
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .btn2{
+            position: absolute;
+            top: 1%;
+            left: 90%;
+            background-color: red;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            padding: 16px 30px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+
+        .BigText{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            width: 30%;
+            font-size: 300%;
+            color: rgb(255, 255, 255);
+        }
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: rgb(250, 242, 242);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+        }
+                .arcaneimg{
+            width: 1850px;
+            height: 1000px;
+        }
+        .moviesection{
+            max-width: 900px;
+            text-transform: uppercase;
+            padding-left: 10%;
+            color: white;
+        }
+        hr.rounded{
+            border-top: 3px solid red;
+            border-radius: 5px;
+        }
+        .movieimg .myimages{
+            height: 500px;
+            width: 280px;
+        }
+        .movieimg .myimages img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .movieimg{
+            float: left;
+            width: 30%;
+            padding: 15px;
+            max-width: max-content;
+            padding-left: 5px;
+        }
+        .moviecontainer::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        .moviecontainer{
+            height: max-content;
+            width: max-content;
+        }
+        
+           
+
+
+</style>
+<body> 
+    
+    <section class="moviesection">
+        <h2>ANIME </h2>
+        <hr class="rounded">
+        <div class="moviecontainer" id="movies">
+            <div class="movieimg">
+                <div class="myimages">
+                    <a href=""><img src="" alt=""></a>
+                </div>
+                  <h2>Синяя Тюрьма: Блю Лок</h2>
+                <span>ANIME </span>
+                </div>
+            
+        </div>
+        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="" width="100%" height="100%" allowfullscreen > </iframe> </div>
+    
+
+           
+           
+                </div>
+            </div>
+        </section>
+        
+
+    </div>
+</body> 
+</html>
